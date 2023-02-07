@@ -34,5 +34,4 @@ def main(page):
          dict_writer=csv.DictWriter(f,keys)
          dict_writer.writeheader()
          dict_writer.writerows(matches_Details)
-         print("file created")
 main(page)
